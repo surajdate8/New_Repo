@@ -23,6 +23,7 @@ public class PhantomJsTest {
 		}
 		System.out.println("Title : "+driver.getTitle());
 		driver.quit();
+		System.out.println("completed and upadated");
 
 	}
 
