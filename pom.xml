@@ -19,6 +19,7 @@
 			<artifactId>htmlunit-driver</artifactId>
 			<version>2.35.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.ars.npm/phantomjs -->
 
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -60,6 +61,20 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>3.6.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.klieber/phantomjs-maven-core -->
+		<dependency>
+			<groupId>com.github.klieber</groupId>
+			<artifactId>phantomjs-maven-core</artifactId>
+			<version>0.7</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
+		<dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.4.4</version>
+		</dependency>
+
+
 
 
 	</dependencies>

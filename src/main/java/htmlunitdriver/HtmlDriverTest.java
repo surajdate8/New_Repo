@@ -12,15 +12,15 @@ public class HtmlDriverTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		WebClient webclient1 = null;
-		HtmlUnitDriver driver=new HtmlUnitDriver(BrowserVersion.CHROME);
+		WebClient webclient = null;
+		HtmlUnitDriver driver=new HtmlUnitDriver(BrowserVersion.BEST_SUPPORTED);
 		
 		driver.get("https://mvnrepository.com/");
 		String title=driver.getTitle();
 		System.out.println(title);
 		
 		try {
-			 webclient1= (WebClient) get (driver,"WebClient");
+			 webclient= (WebClient) get (driver,"WebClient");
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -36,10 +36,10 @@ public class HtmlDriverTest {
 		}
 		
 		
-		System.out.println("client verison: "+ webclient1.getBrowserVersion());
+		System.out.println("client verison: "+ webclient.getBrowserVersion());
 
-		System.out.println("isFirefox verison: "+ webclient1.getBrowserVersion().isChrome());
-		System.out.println("isFirefox verison: "+ webclient1.getBrowserVersion().isFirefox());
+		System.out.println("isFirefox verison: "+ webclient.getBrowserVersion().isChrome());
+		System.out.println("isFirefox verison: "+ webclient.getBrowserVersion().isFirefox());
 		
 		driver.quit();
 
