@@ -81,6 +81,14 @@
 		</dependency>
 
 
+		<!-- https://mvnrepository.com/artifact/org.teiid.connectors/translator-excel -->
+		<dependency>
+			<groupId>org.teiid.connectors</groupId>
+			<artifactId>translator-excel</artifactId>
+			<version>13.0.1</version>
+		</dependency>
+
+
 
 
 	</dependencies>
