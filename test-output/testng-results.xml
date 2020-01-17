@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="128" started-at="2020-01-17T10:52:31 IST" finished-at="2020-01-17T10:52:31 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="128" started-at="2020-01-17T10:52:31 IST" finished-at="2020-01-17T10:52:31 IST">
+      <class name="com.testng.practice.Excel_Full">
+        <test-method status="PASS" signature="create_Excel()[pri:1, instance:com.testng.practice.Excel_Full@3f5566]" name="create_Excel" duration-ms="51" started-at="2020-01-17T10:52:31 IST" finished-at="2020-01-17T10:52:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Excel -->
+        <test-method status="PASS" signature="delete_excel()[pri:3, instance:com.testng.practice.Excel_Full@3f5566]" name="delete_excel" duration-ms="4" started-at="2020-01-17T10:52:31 IST" finished-at="2020-01-17T10:52:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_excel -->
+      </class> <!-- com.testng.practice.Excel_Full -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

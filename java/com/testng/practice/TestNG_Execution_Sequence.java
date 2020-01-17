@@ -11,13 +11,15 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class TestNG_Execution_Sequence {
-   // test case 1
+   
+	public static String dir=System.getProperty("user.dir");
+	
    @Test
    public void testCase1() {
       System.out.println("in test case 1");
    }
 
-   // test case 2
+
    @Test
    public void testCase2() {
       System.out.println("in test case 2");
